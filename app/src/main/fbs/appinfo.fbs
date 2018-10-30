@@ -1,0 +1,14 @@
+namespace com.demon.fb;
+
+table AppInfo{
+  symbolId:string;
+  model:string;
+  systemVersion:string;
+  brand:string;
+  cpuArchitecture:string;
+  isRoot:bool;
+  memorySize:long;
+  freeMemorySize:long;
+  processName:string;
+}
+
